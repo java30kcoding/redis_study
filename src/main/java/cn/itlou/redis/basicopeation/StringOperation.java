@@ -6,14 +6,14 @@ import redis.clients.jedis.Jedis;
 import java.util.List;
 
 /**
- * 常用数据结构的操作
+ * String的操作
  *
  * @author yuanyl
  * @version V1.0
  * @since 2019/10/10 15:43
  **/
 @Slf4j
-public class Opreation {
+public class StringOperation {
 
     static Jedis jedis;
 
