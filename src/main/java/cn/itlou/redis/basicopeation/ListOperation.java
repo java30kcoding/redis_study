@@ -18,8 +18,8 @@ public class ListOperation {
     static Jedis jedis;
 
     static {
-        jedis = new Jedis("114.67.72.37", 6379);
-        jedis.auth("redis123456");
+        jedis = new Jedis("*.*.*.*", 6379);
+        jedis.auth("******");
     }
 
     public static void main(String[] args) {
